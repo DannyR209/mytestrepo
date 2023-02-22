@@ -1,19 +1,66 @@
 body{
-     background-image: url('spongebobBackground.jpg');
-    /* background-color: navy;*/
+     background-image: url('BeachSpongebob.png');
+     background-size: 4000px;
+     width: 1500px;
+     height: 300px;
+     
+   
 }
 
 h1{
+    font-family: Trattatello, fantasy;
+    text-decoration: overline;
     text-align: center;
     font-weight: bold;
     color: white;
 }
 
 h2{
+    text-align: center;
     text-decoration: underline;
     color: white
 }
 
-p{
+h3{
+    text-align: center;
+    font-weight: bold;
     color: white;
 }
+
+p{
+    text-align: center;
+    color: white;
+}
+
+a{
+   font-weight: bold;
+   color: white;
+}
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: rgba(101, 135, 192, 100);
+  border: 5px solid;
+     color: navy;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: blue wavy underline;
+}
+
+/*Confused how this and this works exactly */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+
